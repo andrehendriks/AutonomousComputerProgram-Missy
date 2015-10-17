@@ -1,0 +1,569 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F309A3FE-0AAA-490A-9814-ECE10000FD6B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AutonomousComputerProgram</RootNamespace>
+    <AssemblyName>AutonomousComputerProgram</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AIMLbot, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>aimlbot\AIMLbot.dll</HintPath>
+    </Reference>
+    <Reference Include="BrainDb, Version=1.1.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\BrainDb.dll</HintPath>
+    </Reference>
+    <Reference Include="CLIPSNet, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>clips.net.2.0\CLIPSNet.dll</HintPath>
+    </Reference>
+    <Reference Include="Connector, Version=1.0.5053.17445, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Connector.dll</HintPath>
+    </Reference>
+    <Reference Include="CSProlog, Version=1.1.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>prolog.net\CSProlog.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Jayrock.Json, Version=0.9.12915.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Jayrock.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Kinect, Version=1.8.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.TeamFoundation, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.Services.Client, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.Services.Common, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Web.XmlTransform">
+      <HintPath>..\packages\Microsoft.Web.Xdt.2.1.1\lib\net40\Microsoft.Web.XmlTransform.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAzure.Mobile, Version=1.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\WindowsAzure.MobileServices.1.2.5\lib\net45\Microsoft.WindowsAzure.Mobile.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAzure.Mobile.Ext, Version=1.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\WindowsAzure.MobileServices.1.2.5\lib\net45\Microsoft.WindowsAzure.Mobile.Ext.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Avatar, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Xna.Framework.Graphics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86" />
+    <Reference Include="Microsoft.Xna.Framework.Video, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog, Version=2.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="NuGet.Core">
+      <HintPath>..\packages\NuGet.Core.2.8.6\lib\net40-Client\NuGet.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="PacketFormatter, Version=1.0.5053.17443, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\PacketFormatter.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.SQLite">
+      <HintPath>..\packages\System.Data.SQLite.Core.1.0.98.1\lib\net46\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.EF6">
+      <HintPath>..\packages\System.Data.SQLite.EF6.1.0.98.1\lib\net46\System.Data.SQLite.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq">
+      <HintPath>..\packages\System.Data.SQLite.Linq.1.0.98.1\lib\net46\System.Data.SQLite.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Device" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http.Extensions">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.28\lib\net45\System.Net.Http.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Primitives">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.28\lib\net45\System.Net.Http.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Windows.Controls.Input.Toolkit, Version=3.5.40128.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows.Controls.Input.Toolkit.Design, Version=3.5.40128.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows.Controls.Input.Toolkit.VisualStudio.Design, Version=3.5.40128.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows.Controls.Layout.Toolkit, Version=3.5.40128.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows.Controls.Layout.Toolkit.Design, Version=3.5.40128.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows.Controls.Layout.Toolkit.VisualStudio.Design, Version=3.5.40128.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Interactivity, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="ThinkGear, Version=2.8.4892.19806, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\ThinkGear.dll</HintPath>
+    </Reference>
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="visionnet.2.1, Version=2.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\visionnet.2.1.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="WPFToolkit, Version=3.5.40128.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="WPFToolkit.Design, Version=3.5.40128.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="WPFToolkit.VisualStudio.Design, Version=3.5.40128.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="mindplay\HardwareOperation.cs" />
+    <Compile Include="mindplay\SPDRP_.cs" />
+    <Compile Include="mindplay\SP_DEVINFO_DATA.cs" />
+    <Compile Include="System.Speech.Synthesis.TtsEngine.cs" />
+    <Compile Include="system.speech\system.speech.synthesis\FilePrompt\FilePrompt.cs" />
+    <Compile Include="system.speech\system.speech.synthesis\InstalledVoice\IntalledVoice.cs" />
+    <Compile Include="system.speech\system.speech.synthesis\PhonemeReachedEventArgs\PhonemeReachedEventArgs.cs" />
+    <Compile Include="system.speech\system.speech.synthesis\Prompt.cs" />
+    <Compile Include="system.speech\system.speech.synthesis\PromptBreak\PromptBreak.cs" />
+    <Compile Include="system.speech\system.speech.synthesis\PromptRate\PromptRate.cs" />
+    <Compile Include="system.speech\system.speech.synthesis\Prompt\Prompt.cs" />
+    <Compile Include="system.speech\system.speech.synthesis\PrompVolume\PromptVolume.cs" />
+    <Compile Include="system.speech\system.speech.synthesis\SayAs\SayAs.cs" />
+    <Compile Include="system.speech\system.speech.synthesis\SpeakCompletedEventArgs.cs" />
+    <Compile Include="system.speech\system.speech.synthesis\SpeakCompletedEventArgs\base types\PromptEventArgs.cs" />
+    <Compile Include="system.speech\system.speech.synthesis\SpeechSynthesizer.cs" />
+    <Compile Include="system.speech\system.speech.synthesis\SynthesisMediaType\SynthesisMediaType.cs" />
+    <Compile Include="system.speech\system.speech.synthesis\SynthesisTextFormat\SynthesisTextFormat.cs" />
+    <Compile Include="system.speech\system.speech.synthesis\SynthesizerEmphasis\SynthesizerEmphasis.cs" />
+    <Compile Include="system.speech\system.speech.synthesis\SynthesizerState\SynthesizerState.cs" />
+    <Compile Include="system.speech\system.speech.synthesis\VoiceAge\VoiceAge.cs" />
+    <Compile Include="system.speech\system.speech.synthesis\VoiceGender\VoiceGender.cs" />
+    <Compile Include="thinkgear\ThinkGear.cs" />
+    <Compile Include="visionnet\VisionNet.cs" />
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CLIPS\Activation1.cs" />
+    <Compile Include="CLIPS\ClassMode1.cs" />
+    <Compile Include="CLIPS\ClipsException1.cs" />
+    <Compile Include="CLIPS\DataType1.cs" />
+    <Compile Include="CLIPS\DataTypes\Boolean1.cs" />
+    <Compile Include="CLIPS\DataTypes\Double1.cs" />
+    <Compile Include="CLIPS\DataTypes\ExternalObject1.cs" />
+    <Compile Include="CLIPS\DataTypes\GenericDataType1.cs" />
+    <Compile Include="CLIPS\DataTypes\InstanceName1.cs" />
+    <Compile Include="CLIPS\DataTypes\Integer1.cs" />
+    <Compile Include="CLIPS\DataTypes\Multifield1.cs" />
+    <Compile Include="CLIPS\DataTypes\String1.cs" />
+    <Compile Include="CLIPS\DataTypes\Symbol1.cs" />
+    <Compile Include="CLIPS\Defclass1.cs" />
+    <Compile Include="CLIPS\Deffacts1.cs" />
+    <Compile Include="CLIPS\Deffunction1.cs" />
+    <Compile Include="CLIPS\Defglobal1.cs" />
+    <Compile Include="CLIPS\Definstances1.cs" />
+    <Compile Include="CLIPS\DefmessageHandler1.cs" />
+    <Compile Include="CLIPS\Defmethod1.cs" />
+    <Compile Include="CLIPS\Defmodule1.cs" />
+    <Compile Include="CLIPS\Defrule1.cs" />
+    <Compile Include="CLIPS\Deftemplate1.cs" />
+    <Compile Include="CLIPS\Degeneric1.cs" />
+    <Compile Include="CLIPS\Fact1.cs" />
+    <Compile Include="CLIPS\GenericEnumerator1.cs" />
+    <Compile Include="CLIPS\Router1.cs" />
+    <Compile Include="CLIPS\SalienceEvaluation1.cs" />
+    <Compile Include="CLIPS\SaveScope1.cs" />
+    <Compile Include="CLIPS\Strategy1.cs" />
+    <Compile Include="CLIPS\UserFunction1.cs" />
+    <Compile Include="CLIPS\WatchItem1.cs" />
+    <Compile Include="CLIPS\Wrapper1.cs" />
+    <Compile Include="cprolog\AbortQueryException1.cs" />
+    <Compile Include="cprolog\AssocType1.cs" />
+    <Compile Include="cprolog\Basiclo.cs" />
+    <Compile Include="cprolog\BI1.cs" />
+    <Compile Include="cprolog\Bootstrap1.cs" />
+    <Compile Include="cprolog\CachePort1.cs" />
+    <Compile Include="cprolog\DosIO1.cs" />
+    <Compile Include="cprolog\DupMode1.cs" />
+    <Compile Include="cprolog\Exctensions1.cs" />
+    <Compile Include="cprolog\FileIO1.cs" />
+    <Compile Include="cprolog\ISolution.cs" />
+    <Compile Include="cprolog\ITermNode1.cs" />
+    <Compile Include="cprolog\IVarValue.cs" />
+    <Compile Include="cprolog\PrologEgine1.TT.cs" />
+    <Compile Include="cprolog\PrologEngine1.cs" />
+    <Compile Include="cprolog\PrologEngine1.UndefAction.cs" />
+    <Compile Include="cprolog\RelOp1.cs" />
+    <Compile Include="cprolog\Solution1.cs" />
+    <Compile Include="cprolog\SolutionSet1.cs" />
+    <Compile Include="cprolog\SpyPort1.cs" />
+    <Compile Include="cprolog\TermType1.cs" />
+    <Compile Include="cprolog\Variable1.cs" />
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Missy.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="App_Data\AutonomousComputerProgram.db" />
+    <None Include="App_Data\Graphmaster.dat" />
+    <None Include="App_Data\Missy.db" />
+    <None Include="lisp\4x3-mdp.lisp" />
+    <None Include="lisp\4x3-passive-mdp.lisp" />
+    <None Include="lisp\active-adp-learner.lisp" />
+    <None Include="lisp\active-qi-learner.lisp" />
+    <None Include="lisp\agent.lisp" />
+    <None Include="lisp\aima.lisp" />
+    <None Include="lisp\and-boolean.lisp" />
+    <None Include="lisp\and.lisp" />
+    <None Include="lisp\basic-env.lisp" />
+    <None Include="lisp\binary-tree.lisp" />
+    <None Include="lisp\cannibals.lisp" />
+    <None Include="lisp\chart-parse.lisp" />
+    <None Include="lisp\cltl2.lisp" />
+    <None Include="lisp\cognac.lisp" />
+    <None Include="lisp\csp.lisp" />
+    <None Include="lisp\dll.lisp" />
+    <None Include="lisp\dp.lisp" />
+    <None Include="lisp\dtl.lisp" />
+    <None Include="lisp\ex-19-4-boolean.lisp" />
+    <None Include="lisp\exploring-adp-learner.lisp" />
+    <None Include="lisp\exploring-tdq-learner.lisp" />
+    <None Include="lisp\fol.lisp" />
+    <None Include="lisp\games.lisp" />
+    <None Include="lisp\gostsyntax.lisp" />
+    <None Include="lisp\grammars.lisp" />
+    <None Include="lisp\grid-env.lisp" />
+    <None Include="lisp\grid.lisp" />
+    <None Include="lisp\horn.lisp" />
+    <None Include="lisp\ida.lisp" />
+    <None Include="lisp\index.lisp" />
+    <None Include="lisp\inductive-learning.lisp" />
+    <None Include="lisp\infix.lisp" />
+    <None Include="lisp\iterative.lisp" />
+    <None Include="lisp\kb-agent.lisp" />
+    <None Include="lisp\learning-curves.lisp" />
+    <None Include="lisp\majority-boolean.lisp" />
+    <None Include="lisp\mdp-agent.lisp" />
+    <None Include="lisp\mdp.lisp" />
+    <None Include="lisp\mdp2.lisp" />
+    <None Include="lisp\minimax.lisp" />
+    <None Include="lisp\multilayer.lisp" />
+    <None Include="lisp\nn.lisp" />
+    <None Include="lisp\normal.lisp" />
+    <None Include="lisp\nqueens.lisp" />
+    <None Include="lisp\passive-adp-learner.lisp" />
+    <None Include="lisp\passive-lms-learner.lisp" />
+    <None Include="lisp\passive-td-learner.lisp" />
+    <None Include="lisp\path-planning.lisp" />
+    <None Include="lisp\perceptron.lisp" />
+    <None Include="lisp\policies.lisp" />
+    <None Include="lisp\prob-solve.lisp" />
+    <None Include="lisp\problems.lisp" />
+    <None Include="lisp\prop.lisp" />
+    <None Include="lisp\ps-agents.lisp" />
+    <None Include="lisp\puzzle8.lisp" />
+    <None Include="lisp\q-iteration.lisp" />
+    <None Include="lisp\queue.lisp" />
+    <None Include="lisp\repeated.lisp" />
+    <None Include="lisp\restaurant-boolean.lisp" />
+    <None Include="lisp\restaurant-multivalued.lisp" />
+    <None Include="lisp\restaurant-real.lisp" />
+    <None Include="lisp\restaurant.lisp" />
+    <None Include="lisp\route-finding.lisp" />
+    <None Include="lisp\sagasyntax.lisp" />
+    <None Include="lisp\shopping-agent.lisp" />
+    <None Include="lisp\shopping.lisp" />
+    <None Include="lisp\simple.lisp" />
+    <None Include="lisp\sma.lisp" />
+    <None Include="lisp\stats.lisp" />
+    <None Include="lisp\tell-ask.lisp" />
+    <None Include="lisp\test-agents.lisp" />
+    <None Include="lisp\test-language.lisp" />
+    <None Include="lisp\test-learning.lisp" />
+    <None Include="lisp\test-logic.lisp" />
+    <None Include="lisp\test-search.lisp" />
+    <None Include="lisp\test-uncertainty.lisp" />
+    <None Include="lisp\test-utilities.lisp" />
+    <None Include="lisp\tsp.lisp" />
+    <None Include="lisp\ttt-agent.lisp" />
+    <None Include="lisp\ttt.lisp" />
+    <None Include="lisp\unify.lisp" />
+    <None Include="lisp\utilities.lisp" />
+    <None Include="lisp\vacuum.lisp" />
+    <None Include="lisp\vacuum2.lisp" />
+    <None Include="lisp\vacuum3.lisp" />
+    <None Include="lisp\wumpus-grammar.lisp" />
+    <None Include="lisp\wumpus.lisp" />
+    <None Include="lisp\wumpus3.lisp" />
+    <None Include="lisp\xor-boolean.lisp" />
+    <None Include="lisp\xor.lisp" />
+    <None Include="packages.config" />
+    <None Include="paip\auxfns.lisp" />
+    <None Include="paip\clos.lisp" />
+    <None Include="paip\cmacsyma.lisp" />
+    <None Include="paip\compile1.lisp" />
+    <None Include="paip\compile2.lisp" />
+    <None Include="paip\compile3.lisp" />
+    <None Include="paip\compopt.lisp" />
+    <None Include="paip\edge-tab.lisp" />
+    <None Include="paip\eliza-pm.lisp" />
+    <None Include="paip\eliza.lisp" />
+    <None Include="paip\eliza1.lisp" />
+    <None Include="paip\examples.lisp" />
+    <None Include="paip\gps-srch.lisp" />
+    <None Include="paip\gps.lisp" />
+    <None Include="paip\gps1.lisp" />
+    <None Include="paip\grammar.lisp" />
+    <None Include="paip\interp1.lisp" />
+    <None Include="paip\interp2.lisp" />
+    <None Include="paip\interp3.lisp" />
+    <None Include="paip\intro.lisp" />
+    <None Include="paip\krep.lisp" />
+    <None Include="paip\krep1.lisp" />
+    <None Include="paip\krep2.lisp" />
+    <None Include="paip\lexicon.lisp" />
+    <None Include="paip\loop.lisp" />
+    <None Include="paip\macsyma.lisp" />
+    <None Include="paip\macsymar.lisp" />
+    <None Include="paip\missy.lisp" />
+    <None Include="paip\missy1.lisp" />
+    <None Include="paip\mycin-r.lisp" />
+    <None Include="paip\mycin.lisp" />
+    <None Include="paip\othello.lisp" />
+    <None Include="paip\othello2.lisp" />
+    <None Include="paip\overview.lisp" />
+    <None Include="paip\patmatch.lisp" />
+    <None Include="paip\prolog.lisp" />
+    <None Include="paip\prolog1.lisp" />
+    <None Include="paip\prologc.lisp" />
+    <None Include="paip\prologc1.lisp" />
+    <None Include="paip\prologc2.lisp" />
+    <None Include="paip\prologcp.lisp" />
+    <None Include="paip\search.lisp" />
+    <None Include="paip\simple.lisp" />
+    <None Include="paip\student.lisp" />
+    <None Include="paip\syntax1.lisp" />
+    <None Include="paip\syntax2.lisp" />
+    <None Include="paip\syntax3.lisp" />
+    <None Include="paip\tutor.lisp" />
+    <None Include="paip\unifgram.lisp" />
+    <None Include="paip\unify.lisp" />
+    <None Include="paip\waltz.lisp" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+    <None Include="reasoner-3.3.2\reasoner-3.3.2\bin\su.dat" />
+    <None Include="reasoner-3.3.2\reasoner-3.3.2\demos\blocks.lisp" />
+    <None Include="reasoner-3.3.2\reasoner-3.3.2\demos\boris.lisp" />
+    <None Include="reasoner-3.3.2\reasoner-3.3.2\demos\career.lisp" />
+    <None Include="reasoner-3.3.2\reasoner-3.3.2\demos\combin.lisp" />
+    <None Include="reasoner-3.3.2\reasoner-3.3.2\demos\miss.lisp" />
+    <None Include="reasoner-3.3.2\reasoner-3.3.2\demos\mult.lisp" />
+    <None Include="reasoner-3.3.2\reasoner-3.3.2\demos\plan.lisp" />
+    <None Include="reasoner-3.3.2\reasoner-3.3.2\demos\pref.lisp" />
+    <None Include="reasoner-3.3.2\reasoner-3.3.2\demos\queens.lisp" />
+    <None Include="reasoner-3.3.2\reasoner-3.3.2\demos\su.lisp" />
+    <None Include="reasoner-3.3.2\reasoner-3.3.2\doc\disease.rdf" />
+    <None Include="reasoner-3.3.2\reasoner-3.3.2\doc\disease.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="reasoner-3.3.2\reasoner-3.3.2\doc\reasoner.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="reasoner-3.3.2\reasoner-3.3.2\doc\stuff.rdf" />
+    <None Include="reasoner-3.3.2\reasoner-3.3.2\doc\stuff.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="reasoner-3.3.2\reasoner-3.3.2\preasoner-cxml.asd" />
+    <None Include="reasoner-3.3.2\reasoner-3.3.2\preasoner-demos.asd" />
+    <None Include="reasoner-3.3.2\reasoner-3.3.2\preasoner-xml.asd" />
+    <None Include="reasoner-3.3.2\reasoner-3.3.2\preasoner.asd" />
+    <None Include="reasoner-3.3.2\reasoner-3.3.2\reasoner-cxml.asd" />
+    <None Include="reasoner-3.3.2\reasoner-3.3.2\reasoner-demos.asd" />
+    <None Include="reasoner-3.3.2\reasoner-3.3.2\reasoner-xml.asd" />
+    <None Include="reasoner-3.3.2\reasoner-3.3.2\reasoner.asd" />
+    <None Include="reasoner-3.3.2\reasoner-3.3.2\src\atms.lisp" />
+    <None Include="reasoner-3.3.2\reasoner-3.3.2\src\backtrack.lisp" />
+    <None Include="reasoner-3.3.2\reasoner-3.3.2\src\compat.lisp" />
+    <None Include="reasoner-3.3.2\reasoner-3.3.2\src\composite.lisp" />
+    <None Include="reasoner-3.3.2\reasoner-3.3.2\src\consumer.lisp" />
+    <None Include="reasoner-3.3.2\reasoner-3.3.2\src\datatype.lisp" />
+    <None Include="reasoner-3.3.2\reasoner-3.3.2\src\defrule.lisp" />
+    <None Include="reasoner-3.3.2\reasoner-3.3.2\src\deserial.lisp" />
+    <None Include="reasoner-3.3.2\reasoner-3.3.2\src\extclass.lisp" />
+    <None Include="reasoner-3.3.2\reasoner-3.3.2\src\genrule.lisp" />
+    <None Include="reasoner-3.3.2\reasoner-3.3.2\src\prop.lisp" />
+    <None Include="reasoner-3.3.2\reasoner-3.3.2\src\range.lisp" />
+    <None Include="reasoner-3.3.2\reasoner-3.3.2\src\reasoner.lisp" />
+    <None Include="reasoner-3.3.2\reasoner-3.3.2\src\rparallel.lisp" />
+    <None Include="reasoner-3.3.2\reasoner-3.3.2\src\rsexport.lisp" />
+    <None Include="reasoner-3.3.2\reasoner-3.3.2\src\rsuser.lisp" />
+    <None Include="reasoner-3.3.2\reasoner-3.3.2\src\serial.lisp" />
+    <None Include="reasoner-3.3.2\reasoner-3.3.2\src\slotval.lisp" />
+    <None Include="reasoner-3.3.2\reasoner-3.3.2\src\streams.lisp" />
+    <None Include="reasoner-3.3.2\reasoner-3.3.2\src\triple.lisp" />
+    <None Include="reasoner-3.3.2\reasoner-3.3.2\src\wff.lisp" />
+    <None Include="reasoner-3.3.2\reasoner-3.3.2\src\xmlic.lisp" />
+    <None Include="reasoner-3.3.2\reasoner-3.3.2\src\xmlis.lisp" />
+    <None Include="reasoner-3.3.2\reasoner-3.3.2\src\xmlnames.lisp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="aimlbot\AIMLbot.dll" />
+    <Content Include="aimlbot\AIMLbot.pdb" />
+    <Content Include="App_Data\Missy.sdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="Resources\connected_v1.png" />
+    <Resource Include="Resources\connecting1_v1.png" />
+    <Resource Include="Resources\connecting2_v1.png" />
+    <Resource Include="Resources\connecting3_v1.png" />
+    <Resource Include="Resources\nosignal_v1.png" />
+    <Content Include="clips.net.2.0\CLIPSLib.dll" />
+    <Content Include="clips.net.2.0\CLIPSNet.dll" />
+    <Resource Include="ColorBitmap.bmp" />
+    <Content Include="paip\README.html" />
+    <Content Include="presets\Missy.avi" />
+    <Content Include="prolog.net\CSProlog.dll" />
+    <Content Include="prolog.net\CSProlog.pdb" />
+    <Resource Include="reasoner-3.3.2\reasoner-3.3.2\copyright.txt" />
+    <Content Include="reasoner-3.3.2\reasoner-3.3.2\doc\demos.html" />
+    <Content Include="reasoner-3.3.2\reasoner-3.3.2\doc\intro.html" />
+    <Content Include="reasoner-3.3.2\reasoner-3.3.2\doc\reasoner.css" />
+    <Content Include="reasoner-3.3.2\reasoner-3.3.2\doc\reasoner.html" />
+    <Content Include="reasoner-3.3.2\reasoner-3.3.2\doc\reasonerdef.css" />
+    <Content Include="reasoner-3.3.2\reasoner-3.3.2\doc\serialize.html" />
+    <Resource Include="reasoner-3.3.2\reasoner-3.3.2\doc\strata.png" />
+    <Content Include="reasoner-3.3.2\reasoner-3.3.2\doc\triple.html" />
+    <Resource Include="reasoner-3.3.2\reasoner-3.3.2\GNU-GPL.txt" />
+    <Resource Include="reasoner-3.3.2\reasoner-3.3.2\readme.txt" />
+    <Resource Include="lisp\diff-proof.txt" />
+    <Content Include="lisp\entries.htm" />
+    <Resource Include="lisp\hyperspec.txt" />
+    <Content Include="lisp\install.htm" />
+    <Content Include="lisp\old-install.htm" />
+    <Content Include="lisp\overview-AGENTS.htm" />
+    <Content Include="lisp\overview-LANGUAGE.htm" />
+    <Content Include="lisp\overview-LEARNING.htm" />
+    <Content Include="lisp\overview-LOGIC.htm" />
+    <Content Include="lisp\overview-PLANNING.htm" />
+    <Content Include="lisp\overview-SEARCH.htm" />
+    <Content Include="lisp\overview-UNCERTAINTY.htm" />
+    <Content Include="lisp\overview-UTILITIES.htm" />
+    <Content Include="lisp\overview.htm" />
+    <Content Include="lisp\user.htm" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="WinSimulatorUtilitiesElevatedLib">
+      <Guid>{927FEA71-3F10-4685-ACB7-6CFBB169D603}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="system.speech\system.speech.recognition\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" />
+  <Target Name="EnsureBclBuildImported" BeforeTargets="BeforeBuild" Condition="'$(BclBuildImported)' == ''">
+    <Error Condition="!Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" Text="This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=317567." HelpKeyword="BCLBUILD2001" />
+    <Error Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" Text="The build restored NuGet packages. Build the project again to include these packages in the build. For more information, see http://go.microsoft.com/fwlink/?LinkID=317568." HelpKeyword="BCLBUILD2002" />
+  </Target>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\System.Data.SQLite.Core.1.0.98.1\build\net46\System.Data.SQLite.Core.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\System.Data.SQLite.Core.1.0.98.1\build\net46\System.Data.SQLite.Core.targets'))" />
+  </Target>
+  <Import Project="..\packages\System.Data.SQLite.Core.1.0.98.1\build\net46\System.Data.SQLite.Core.targets" Condition="Exists('..\packages\System.Data.SQLite.Core.1.0.98.1\build\net46\System.Data.SQLite.Core.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
