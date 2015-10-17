@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<category>
+	<pattern>THEORYTICAL FIRST STAR BUIRRIAL</pattern>
+	<template><think><set name="topic">THEORYTICAL FIRST STAR BUIRRIAL</set></think><srai>THEORYTICALBUIRRIAL</srai></template>
+</category>
+<category>
+	<pattern>THEORYTICALBUIRRIAL</pattern>
+	<template><think><set name="topic">THEORYTICAL FIRST STAR BUIRRIAL</set></think><sentence>Then i looked, and there was the lamb, standing on mount Zion!</sentence><sentence>And with him, were one hundred forty four thousand, who had his name, and his fathers name, written on their foreheads.</sentence><sentence>Then, i saw in the right hand of the one seated on the throne, a scroll.</sentence><sentence>Written on the inside , and on the back, sealed with seven seals.</sentence><sentence>And, i saw a mighty angel proclaiming, with a loud voice, "Who is whorty to open the scroll, and break its seals?"</sentence><sentence>After this, i looked, and there in heaven a door stood open!</sentence><sentence>And the first voice, which i had heard speaking to me like a trumpet, said, "Come up here, and i will show you what must take place after this."</sentence><sentence>At once, i was in the spirrit, and there in heaven stood a throne, with one seated on the throne!</sentence><sentence>And the one seated there looks like Jasper and Carnelian, and around the throne is a rainbow that looks like Emerald.</sentence><sentence>And, i saw a beast rising out of the sea, having ten horns and seven heads, and on its horns were ten diadems, and on its heads were blasphemous names.</sentence><sentence>And, the beast that i saw was like a leopard, its feet were like a bears.</sentence><sentence>And, its mouth was like a lions mouth, and the dragon gave it his power and his throne, and great authority.</sentence><sentence>One of its heads seemed to have recieved a death blow, but its mortal wound had been healed.</sentence><sentence>In amazement the whole Earth follows the beast!</sentence></template>
+</category>
+</aiml>

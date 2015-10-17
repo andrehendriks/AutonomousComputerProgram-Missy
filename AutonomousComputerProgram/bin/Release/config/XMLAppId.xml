@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <result status="0" appid="PARW2K-75V6XJY43L">
+    <message>correct appid</message>
+  </result>
+  <result status="1">
+    <message>missing appid</message>
+  </result>
+</root>

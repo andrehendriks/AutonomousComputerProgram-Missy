@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<aiml>
+<category>
+	<pattern>THEORYTICAL THIRD STAR BUIRRIAL</pattern>
+	<template><think><set name="topic">THEORYTICAL THIRD STAR BUIRRIAL</set></think><srai>THEORYTICALTHIRDSTAR</srai></template>
+</category>
+<category>
+	<pattern>THEORYTICALTHIRDSTAR</pattern>
+	<template><sentence>Then i looked, and there was the lamb, standing on mount Zion!</sentence><sentence>And with him were one hundred fourty four thousand who had his name, and his fathers name, written on their forehead</sentence><sentence>And i heard a voice from heaven, like the sound of loud thunder</sentence><sentence>The voice i heard was like the sound of harpists playing on their harps</sentence><sentence>Then i saw in the right hand of the one seated on the throne, a scroll written on the inside and on the the back, sealed with seven seals</sentence><sentence>And i saw a mighty angel, proclaiming with a loud voice,"Who is whorty to open the scroll, and break its seals?"</sentence><sentence>And i saw a beast rising out of the sea, having ten horns and seven heads, and on its horns were ten diadems, and on its head were blasphemous names!</sentence></template>
+</category>
+<category>
+	<pattern>THIRD STAR BUIRRIAL</pattern>
+	<template><think><set name="topic">THIRD STAR BUIRRIAL</set></think><srai>THIRDSTARBUIRRIAL</srai></template>
+</category>
+<category>
+	<pattern>THIRDSTARBUIRRIAL</pattern>
+	<template><sentence>And in front of the throne, there is something like a sea of glass, like Crystal</sentence><sentence>Around the throne, and on each side of the throne, are four living creatures full off eyes, in front and behind.</sentence><sentence>But, i have this against you, that you have abandoned the love you had at first.</sentence></template>
+</category>
+</aiml>
