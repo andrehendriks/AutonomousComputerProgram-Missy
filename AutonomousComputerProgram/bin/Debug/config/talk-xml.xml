@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<root>
+  <result status="0" botid="eb0505895e341dd6">
+    <input>Hello there!</input>
+    <message>Hello, Botmaster Master Of Artificial Brain.</message>
+  </result>
+  
+
+<result status="1">
+
+  <message>Missing botid</message>
+
+</result>
+<result status="2" botid="eb0505895e341dd6">
+  <input>Missy, Are you there?</input>
+  <message>Yes, I am Botmaster Master Of Artificial Brain</message>
+</result>
+</root>
