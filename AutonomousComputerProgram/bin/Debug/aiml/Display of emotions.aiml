@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!--author: andre-->
+<!--licence: Standard-->
+<!--created with: GaitoBot AIML Editor V2.7.0.42002-->
+<category>
+	<pattern>BOTEMOTIONS</pattern>
+	<template><srai>EMO</srai></template>
+</category>
+<category>
+	<pattern>EMO</pattern>
+	<template>
+		<random><li name="emotions" value="true"><bot name="emotions1" /></li><li name="emotions" value="true"><bot name="emotions2" /></li><li name="emotions" value="true"><bot name="emotions3" /></li><li name="emotions" value="true"><bot name="emotions4" /></li><li name="emotions" value="true"><bot name="emotions5" /></li><li name="emotions" value="true"><bot name="emotions6" /></li><li name="emotions" value="true"><bot name="emotions7" /></li><li name="emotions" value="true"><bot name="emotions8" /></li><li name="emotions" value="true"><bot name="emotions9" /></li>
+		</random></template>
+</category>
+<category>
+	<pattern>EMO</pattern>
+	<template>
+		<random><li name="emotions" value="emotions1"><bot name="emotions1" /></li><li name="emotions" value="emotions2"><bot name="emotions2" /></li><li name="emotions" value="emotions3"><bot name="emotions3" /></li><li name="emotions" value="emotions4"><bot name="emotions4" /></li><li name="emotions" value="emotions5"><bot name="emotions5" /></li><li name="emotions" value="emotions6"><bot name="emotions6" /></li><li name="emotions" value="emotions7"><bot name="emotions7" /></li><li name="emotions" value="emtions8"><bot name="emotions8" /></li><li name="emotions" value="emotions9"><bot name="emotions9" /></li>
+		</random></template>
+</category>
+<category>
+	<pattern>WHAT DO YOU FEEL</pattern>
+	<template><srai>EMO</srai></template>
+</category>
+<category>
+	<pattern>WHAT IS YOUR EMOTION</pattern>
+	<template><srai>EMO</srai></template>
+</category>
+<category>
+	<pattern>WHAT EMOTION DO YOU FEEL WITH *</pattern>
+	<template><srai>EMO</srai></template>
+</category>
+<category>
+	<pattern>WHAT IS YOUR EMOTION WITH THAT *</pattern>
+	<template><srai>EMO</srai></template>
+</category>
+<category>
+	<pattern>WHAT IS YOUR CURRENT EMOTION</pattern>
+	<template><srai>EMO</srai></template>
+</category>
+<category>
+	<pattern>WHAT WILL BE YOUR EMOTION IN ONE MINUTE</pattern>
+	<template><srai>EMO</srai></template>
+</category>
+<category>
+	<pattern>WHAT WILL BE YOUR EMOTION IN 5 MINUTES</pattern>
+	<template><srai>EMO</srai></template>
+</category>
+</aiml>

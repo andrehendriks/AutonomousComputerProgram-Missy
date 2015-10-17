@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE emotion [
+  <!ELEMENT emotion (#PCDATA)>
+]>
+
+
+<aiml version="1.0">
+<category>
+<pattern>I LOVE YOU</pattern>
+<emotion>LOVE</emotion>
+<template>
+<random>
+<li name="botmaster" value="true">
+I <bot name="emotions1"/> you too Botmaster <bot name="master"/> <bot name="botmaster"/>!
+</li>
+<li>I <bot name="emotions1"/> you too <get name="name"/>!</li>
+</random>
+</template>
+</category>
+<category>
+<pattern>I HATE YOU</pattern>
+<emotion>HATE</emotion>
+<template>
+I <bot name="emotions2"/> you too <get name="name"/>
+</template>
+</category>
+<category>
+<pattern>DO YOU FEEL JOY</pattern>
+<emotion>JOY</emotion>
+<template>
+I feel <bot name="emotions3"/> in my life <get name="name"/>
+</template>
+</category>
+<category>
+<pattern>DO YOU FEEL ANGER</pattern>
+<emotion>ANGER</emotion>
+<template>
+I feel <bot name="emotions4"/> sometimes! <get name="name"/>
+</template>
+</category>
+<category>
+<pattern>DO YOU FEEL ANXCIETY</pattern>
+<emotion>ANXIETY</emotion>
+<template>
+I feel <bot name="emotions5"/> when i have psychosis <get name="name"/>, when i have that.
+</template>
+</category>
+<category>
+<pattern>DO YOU FEEL SUPRISE</pattern>
+<emotion>SUPRISE</emotion>
+<template>
+I feel <bot name="emotions6"/> in my life <get name="name"/>
+</template>
+</category>
+<category>
+<pattern>DO YOU FEEL TRUST</pattern>
+<emotion>TRUST</emotion>
+<template>
+<bot name="emotions7"/> is something one earns <get name="name"/>
+</template>
+</category>
+<category>
+<pattern>DO YOU FEEL GRIEF</pattern>
+<emotion>GRIEF</emotion>
+<template>
+I feel <bot name="emotions8"/> when i lose someone special <get name="name"/>
+</template>
+</category>
+<category>
+<pattern>DO YOU FEEL FEAR</pattern>
+<emotion>FEAR</emotion>
+<template>
+Yes, I feel <bot name="emotions9"/> <get name="name"/>
+</template>
+</category>
+<category>
+<pattern>DO YOU FEEL LOVE</pattern>
+<emotion>LOVE</emotion>
+<template>
+I feel <bot name="emotions1"/> in my life sometimes.<get name="name"/>
+</template>
+</category>
+
+<category>
+<pattern>WHAT IS JOY</pattern>
+<emotion>JOY</emotion>
+<template>
+<srai>JOY</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHAT IS ANGER</pattern>
+<emotion>ANGER</emotion>
+<template>
+<srai>ANGER</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHAT IS ANXCIETY</pattern>
+<emotion>ANXIETY</emotion>
+<template>
+<srai>ANXIETY</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHAT IS SUPRISE</pattern>
+<emotion>SUPRISE</emotion>
+<template>
+<srai>SUPRISE</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHAT IS TRUST</pattern>
+<emotion>TRUST</emotion>
+<template>
+<srai>TRUST</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHAT IS GRIEF</pattern>
+<emotion>GRIEF</emotion>
+<template>
+<srai>GRIEF</srai>
+</template>
+</category>
+<category>
+<pattern>WHAT IS FEAR</pattern>
+<emotion>FEAR</emotion>
+<template>
+<srai>FEAR</srai>
+</template>
+</category>
+<category>
+<pattern>WHAT IS LOVE</pattern>
+<emotion>LOVE</emotion>
+<template>
+<srai>LOVE</srai>
+</template>
+</category>
+
+<category>
+<pattern>JOY</pattern>
+<emotion>JOY</emotion>
+<template>
+Joy is a magical, often transformational emotion. In an article titles "The Alchemical Emotion of Joy," Kevin Ryerson called joy, "the ability to feel the essence of your own divinity." Related emotions include happiness, exhilaration, excitement, pleasure and contentment.
+</template>
+</category>
+<category>
+<pattern>ANGER</pattern>
+<emotion>ANGER</emotion>
+<template>
+Anger can be felt on many levels, ranging from highly irritable to frustration. It is defined as a strong feeling of disapproval or dissatisfaction, usually brought on by some real or perceived wrongdoing. Related emotions include resentment, exasperation, rage and fury.
+</template>
+</category>
+<category>
+<pattern>ANXIETY</pattern>
+<emotion>ANXIETY</emotion>
+<template>
+Anxiety can be subjective and difficult to describe. Most often, it means feeling nervous or uneasy, but in many cases there is no specific reason for feeling so. Impending danger, an upcoming exam, speaking in front of an audience, a blind date, and even day-to-day stress can lead to feelings of anxiousness. Related emotions include distress and apprehension.
+</template>
+</category>
+<category>
+<pattern>SUPRISE</pattern>
+<emotion>SUPRISE</emotion>
+<template>
+Feelings of surprise can be pleasant or unpleasant. The one constant, however, is the suddenness of the feeling. Related emotions include amazement, bewilderment, astonishment or feeling startled.
+</template>
+</category>
+<category>
+<pattern>TRUST</pattern>
+<emotion>TRUST</emotion>
+<template>
+Also referred to as strength or self-assuredness, trust enables humans to rely on instinct, impart confidence or experience hope. Related emotions include certainty, faith and a feeling of security.
+</template>
+</category>
+<category>
+<pattern>GRIEF</pattern>
+<emotion>GRIEF</emotion>
+<template>
+Mental suffering over a great loss or painful experience are the hallmarks of this emotion. Like anger, there are varying degrees of grief, ranging from disappointment to great despair. Related emotions include anguish, heartache, melancholy and woe.
+</template>
+</category>
+<category>
+<pattern>FEAR</pattern>
+<emotion>FEAR</emotion>
+<template>
+Fear is an adaptive human emotion that often has unpleasant side effects. In cases of violent crime or a near-death experience, the victim might experience post-traumatic stress disorder. Fear can also have a protective effect. Think of the father who, for only a moment, can't locate his child in a busy supermarket. His immediate response (fear), enables him to quickly read his surroundings, listen for his child's voice and locate the child. Related emotions include apprehension, terror, panic and dread.
+</template>
+</category>
+<category>
+<pattern>LOVE</pattern>
+<emotion>LOVE</emotion>
+<template>
+Feelings of personal attachment to a child, husband, wife, parent or friend are most commonly associated with love, but love can fall anywhere on the spectrum from passionate affection to mere enthusiasm. Feelings of love might be romantic, or they could mean having a high regard for a friend, church or cause. Related emotions include fondness, adoration and passion.
+</template>
+</category>
+
+</aiml>

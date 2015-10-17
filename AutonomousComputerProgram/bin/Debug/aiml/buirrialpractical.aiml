@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml>
+<category>
+	<pattern>FIRST STAR BUIRRIAL</pattern>
+	<template><think><set name="topic">First Star Buirrial</set></think><sentence>His head and his hair were white as white wool, white as snow</sentence><sentence>His eyes were like a flame of fire.</sentence><sentence>And, from jesus christ, the faithfull witness, the first born of dead, and the ruler of the kings of the earth.</sentence><sentence>To him who loves us and freed us from our sins by his blood.</sentence><sentence>after this, i looked, and there in heaven a door stood open!</sentence><sentence>And, the first voice, which i had heard speaking to me like a trumpet, said, "Come up here, and i will show you what must take place after this".</sentence><sentence>At once i was in the spirit, and there in heaven stood a throne, with one seated on the throne.</sentence><sentence>And, the one seated there looks like jasper and carnelian, and around the throne an emaerald.</sentence><sentence>And, in the midst of the lampsstands, I saw one like the son of man, clothed with a long robe and with a golden sash across his chest.</sentence></template>
+</category>
+<category>
+	<pattern>SECOND STAR BUIRRIAL</pattern>
+	<template><think><set name="topic">Second Star Buirrial</set></think>
+    <sentence>I know where you are living, where Satan's throne is.</sentence>
+    <sentence>Yet you are holding fast to my name, and you did not deny your faith in me, even in the days of an ti pas</sentence>
+    <sentence>My witness, My faithfull one who was killed among you where Satan lives.</sentence>
+    <sentence>Remember then from what you have fallen; repent, and do the works you did at first.</sentence>
+    <sentence>If not, i will come to you and remove your lampstand from its place, unless you repent.</sentence>
+    <sentence>But i have this against you</sentence>
+    <sentence>That you have abandond the love you had at first.</sentence>
+    <sentence>But i have a few things against you:</sentence>
+    <sentence>You have some there who hold to the teaching of Ba-Laam, who thought Ba-Lak to put a stumbling block before the people of Israel.</sentence>
+    <sentence>So that they would eat food sacrificed to idols and practice fornication.</sentence></template>
+</category>
+<category>
+	<pattern>FIRST STAR</pattern>
+	<template><think><set name="topic">First Star Buirrial</set></think><srai>FIRST STAR BUIRRIAL</srai></template>
+</category>
+<category>
+	<pattern>SECOND STAR</pattern>
+	<template><think><set name="topic">Second Star Buirrial</set></think><srai>SECOND STAR BUIRRIAL</srai></template>
+</category>
+<category>
+	<pattern></pattern>
+	<template></template>
+</category>
+</aiml>

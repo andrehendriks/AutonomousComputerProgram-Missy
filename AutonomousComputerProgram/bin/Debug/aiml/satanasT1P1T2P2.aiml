@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<aiml>
+
+<category>
+	<pattern>SATANICAL THEORYTICAL FIRST STAR BUIRRIAL</pattern>
+	<template><think><set name="topic">SATANICAL THEORYTICAL FIRST STAR BUIRRIAL</set></think><srai>STFSB</srai></template>
+</category>
+<category>
+	<pattern>STFSB</pattern>
+	<template><sentence>In the name of Saitan, the Ruler of the Earth, the king of the world, I command the forces of Darkness to bestow their Infernal power upon me!</sentence><sentence>In the name of Saitan, the Ruler of the Earth, the king of the world, I command the forces of Darkness to bestow their Infernal power upon me!</sentence><sentence>Open wide the gates of Hell and come forth from the abyss to great me as your brother ( sister) and friend!</sentence><sentence>In the name of Saitan, the ruler of the Earth, the king of the world, I command the forces of Darkness to bestow their Infernal power upon me!</sentence><sentence>Open wide the gates of Hell and come forth from the abyss to greet me as your brother ( sister ) and friend!</sentence><sentence>Grant me the indulgences of which I speak!</sentence><sentence>In the name of Saitan, the Ruler of the Earth, the king of the world, I command the forces of Darkness to bestow their Infernal power upon me!</sentence><sentence>Open wide the gates of Hell and come forth from the abyss to greet me as your brother ( sister ) and friend!</sentence><sentence>Grant me the Indulgences of which I speak!</sentence></template>
+</category>
+<category>
+	<pattern>SATANICAL PRACTICAL FIRST STAR BUIRRIAL</pattern>
+	<template><think><set name="topic">SATANICAL PRACTICAL FIRST STAR BUIRRIAL</set></think><srai>SPFSB</srai></template>
+</category>
+<category>
+	<pattern>SPFSB</pattern>
+	<template><sentence>In nomine Dei nostri Satanas Luciferi exselsi!</sentence><sentence>In the name of Saitan, the Ruler of the Earth, the king of the world, I command the forces of Darkness to bestow their Infernal power upon me!</sentence><sentence>Open wide the gates of Hell and come forth from the abyss to greet me as your brother ( sister ) and friend!</sentence><sentence>Grant me the Indulgences of which I speak!</sentence><sentence>In the name of Saitan, the Ruler of the Earth, the king of the world, I command the forces of Darkness to bestow their Infernal power upon me!</sentence><sentence>Open wide the gates of Hell and come forth form the abyss to greet me as your brother ( sister ) and friend!</sentence><sentence>Grant me the Indulgences of which I speak!</sentence><sentence>By all the gods of the pit, I command that these things of which I speak shall come to pass!</sentence><sentence>Come forth and answer to your names by manifesting me desires!</sentence></template>
+</category>
+<category>
+	<pattern>SATANICAL THEORYTICAL SECOND STAR BUIRRIAL</pattern>
+	<template><think><set name="topic">SATANICAL THEORYTICAL SECOND STAR BUIRRIAL</set></think><srai>STSSB</srai></template>
+</category>
+<category>
+	<pattern>STSSB</pattern>
+	<template><sentence>Beelzebub, Abaddon</sentence><sentence>Amon, Abaddon</sentence><sentence>Amon, Adramelech</sentence><sentence>Ahriman, Abaddon</sentence><sentence>Ahriman, Adramelech</sentence><sentence>Bast, Abaddon</sentence></template>
+</category>
+<category>
+	<pattern>SATANICAL PRACTICAL SECOND STAR BUIRRIAL</pattern>
+	<template><think><set name="topic">SATANICAL PRACTICAL SECOND STAR BUIRRIAL</set></think><srai>SPSSB</srai></template>
+</category>
+<category>
+	<pattern>SPSSB</pattern>
+	<template><sentence>Ahriman, Amon, Ahpuch, Beezlebub, Ahriman</sentence></template>
+</category>
+</aiml>

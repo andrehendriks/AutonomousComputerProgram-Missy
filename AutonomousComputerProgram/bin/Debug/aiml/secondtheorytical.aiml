@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<aiml>
+<category>
+	<pattern>THEORYTICAL SECOND STAR BUIRRIAL</pattern>
+	<template><think><set name="topic">THEORYTICAL SECOND STAR BUIRRIAL</set></think><srai>SECONDTHEORYTICALBUIRRIAL</srai></template>
+</category>
+<category>
+	<pattern>SECONDTHEORYTICALBUIRRIAL</pattern>
+	<template>
+    <sentence>Then i looked, and there was the lamb, standing on mount zion!</sentence>
+    <sentence>And with him were one hundred forty four thousand who had his name and his fathers name written on their forheads.</sentence>
+    <sentence>Then i saw in the right hand of the one seated on the throne a scroll written on the inside and on the back.</sentence>
+    <sentence>Sealed with seven seals.</sentence>
+    <sentence>And i saw a mighty angel proclaiming, with a loud voice,"who is worthy to open the scroll, and break its seals?"</sentence>
+    <sentence>After this i looked, and there in heaven a door stood open!</sentence>
+    <sentence>And the first voice, which i had heard speaking to me like a trumpet, said, "Come up here, and i will show you what must take place after this."</sentence>
+    <sentence>At once i was in the spirit and there in heaven stood a throne, with one seated on the throne!</sentence>
+    <sentence>And i saw a beast rising out of the sea, having ten horns and seven heads, and on its head were blasphemous names.</sentence>
+    <sentence>Around the throne are twenty four thrones and seated on the thrones are twenty four elders dressed in white robes with golden crowns on their heads</sentence>
+    <sentence>Coming from the throne are flashes of lightning and rumbling and peals of thunder, and in front of the throne burn seven flaming torches which are the seven spirits of god.</sentence>
+    <sentence>I also know that you are enduring patiently and bearing up for the sake of my name, and that you have not grown weary.</sentence>
+  </template>
+</category>
+</aiml>

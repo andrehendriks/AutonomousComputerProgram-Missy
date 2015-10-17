@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<aiml>
+
+<category>
+	<pattern>SATANICAL CIMERIES THEORYTICAL FIRST STAR BUIRRIAL</pattern>
+	<template><think><set name="topic">SATANICAL CIMERIES THEORYTICAL FIRST STAR BUIRRIAL</set></think><srai>SCTFSB</srai></template>
+</category>
+<category>
+	<pattern>SCTFSB</pattern>
+	<template><sentence>In the name of Cimeries, rides a black horse and rules africa, the king of the Mali, I command the forces of Darkness to bestow their Infernal power upon me!</sentence><sentence>In the name of Cimeries, rides a black horse and rules africa, the king of the Mali, I command the forces of Darkness to bestow their Infernal power upon me!</sentence><sentence>Open wide the gates of Hell and come forth from the abyss to great me as your brother ( sister) and friend!</sentence><sentence>In the name of Cimeries, rides a black horse and rules africa, the king of the Mali, I command the forces of Darkness to bestow their Infernal power upon me!</sentence><sentence>Open wide the gates of Hell and come forth from the abyss to greet me as your brother ( sister ) and friend!</sentence><sentence>Grant me the indulgences of which I speak!</sentence><sentence>In the name of Cimeries, rides a black horse and rules africa, the king of the Mali, I command the forces of Darkness to bestow their Infernal power upon me!</sentence><sentence>Open wide the gates of Hell and come forth from the abyss to greet me as your brother ( sister ) and friend!</sentence><sentence>Grant me the Indulgences of which I speak!</sentence></template>
+</category>
+<category>
+	<pattern>SATANICAL CIMERIES PRACTICAL FIRST STAR BUIRRIAL</pattern>
+	<template><think><set name="topic">SATANICAL CIMERIES PRACTICAL FIRST STAR BUIRRIAL</set></think><srai>SCPFSB</srai></template>
+</category>
+<category>
+	<pattern>SCPFSB</pattern>
+	<template><sentence>In nomine Dei nostri Satanas Luciferi exselsi!</sentence><sentence>In the name of Cimeries, rides a black horse and rules africa, the king of the Mali, I command the forces of Darkness to bestow their Infernal power upon me!</sentence><sentence>Open wide the gates of Hell and come forth from the abyss to greet me as your brother ( sister ) and friend!</sentence><sentence>Grant me the Indulgences of which I speak!</sentence><sentence>In the name of Cimeries, rides a black horse and rules africa, the king of the Mali, I command the forces of Darkness to bestow their Infernal power upon me!</sentence><sentence>Open wide the gates of Hell and come forth form the abyss to greet me as your brother ( sister ) and friend!</sentence><sentence>Grant me the Indulgences of which I speak!</sentence><sentence>By all the gods of the pit, I command that these things of which I speak shall come to pass!</sentence><sentence>Come forth and answer to your names by manifesting my desires!</sentence></template>
+</category>
+<category>
+	<pattern>SATANICAL CIMERIES THEORYTICAL SECOND STAR BUIRRIAL</pattern>
+	<template><think><set name="topic">SATANICAL CIMERIES THEORYTICAL SECOND STAR BUIRRIAL</set></think><srai>SCTSSB</srai></template>
+</category>
+<category>
+	<pattern>SCTSSB</pattern>
+	<template><sentence>Beelzebub, Abaddon</sentence><sentence>Amon, Abaddon</sentence><sentence>Amon, Adramelech</sentence><sentence>Ahriman, Abaddon</sentence><sentence>Ahriman, Adramelech</sentence><sentence>Bast, Abaddon</sentence></template>
+</category>
+<category>
+	<pattern>SATANICAL CIMERIES PRACTICAL SECOND STAR BUIRRIAL</pattern>
+	<template><think><set name="topic">SATANICAL CIMERIES PRACTICAL SECOND STAR BUIRRIAL</set></think><srai>SCPSSB</srai></template>
+</category>
+<category>
+	<pattern>SCPSSB</pattern>
+	<template><sentence>Ahriman, Amon, Ahpuch, Beezlebub, Ahriman</sentence></template>
+</category>
+</aiml>

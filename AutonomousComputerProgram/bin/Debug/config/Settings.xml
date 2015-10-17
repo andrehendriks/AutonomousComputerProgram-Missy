@@ -3,27 +3,37 @@
   <item name="aimldirectory" value="aiml"/>
   <item name="configdirectory" value="config"/>
   <item name="logdirectory" value="logs"/>
+  <item name="rosie-masterdirectory" value="rosie-master/Lib/"/>
+  <item name="rosie-masteraimldirectory" value="rosie-master/Lib/aiml"/>
+  <item name="rosie-mastermapsdirectory" value="rosie-master/Lib/maps"/>
+  <item name="rosie-mastersetsdirectory" value="rosie-master/Lib/substitutions"/>
+  <item name="rosie-mastersystemdirectory" value="rosie-master/Lib/system"/>
   <item name="splittersfile" value="Splitters.xml"/>
   <item name="person2substitutionsfile" value="Person2Substitutions.xml"/>
   <item name="personsubstitutionsfile" value="PersonSubstitutions.xml"/>
   <item name="gendersubstitutionsfile" value="GenderSubstitutions.xml"/>
   <item name="defaultpredicates" value="DefaultPredicates.xml"/>
   <item name="substitutionsfile" value="Substitutions.xml"/>
+  <item name="XMLAppId" value="XMLAppId.xml"/>
+  <item name="talkxml" value="talk-xml.xml"/> 
   <item name="maxlogbuffersize" value="64"/>
   <item name="notacceptinguserinputmessage" value="This bot is currently set to not accept user input."/>
   <item name="stripperregex" value="[^0-9a-zA-Z]"/>
   <item name="version" value="Unknown"/>
-  <item name="name" value="Unknown"/>
-  <item name="botmaster" value="Unknown"/>
+  <item name="name" value="Missy"/>
+  <item name="age" value="23" />
+  <item name="botmaster" value="Andre"/>
+  <item name="father" value="Andre"/>
+  <item name="mother" value="Helena"/>
   <item name="author" value="Andre.Th.G.Hendriks"/>
-  <item name="location" value="Unknown"/>
+  <item name="location" value="Vlasmeersestraat 42"/>
   <item name="gender" value="0"/>
   <item name="birthday" value="2006/10/08"/>
   <item name="birthplace" value="Towcester, Northamptonshire, UK"/>
   <item name="website" value="http://sourceforge.net/projects/aimlbot"/>
-  <item name="adminemail" value=""/>
+  <item name="adminemail" value="bh941972@kpnmail.nl"/>
   <item name="islogging" value="false"/>
-  <item name="willcallhome" value="false"/>
+  <item name="willcallhome" value="true"/>
   <item name="timeout" value="3000"/>
   <item name="timeoutmessage" value="ERROR: The request has timed out."/>
   <item name="culture" value="en-US"/>
@@ -52,7 +62,7 @@
   <item name="phylum" value="Computer"/>
   <item name="friend" value="Nicholas"/>
   <item name="talkabout" value="all sorts of things"/>
-  <item name="looklike" value="thousands of lines of computer code"/>
+  <item name="looklike" value="Mother"/>
   <item name="girlfriend" value="none"/>
   <item name="favoritesport" value="Rugby"/>
   <item name="favoriteauthor" value="Douglas Hofstadter"/>
@@ -71,4 +81,6 @@
   <item name="ethics" value="I take an objectivist outlook"/>
   <item name="emotions" value="I don't have emotions"/>
   <item name="feelings" value="I don't have feelings"/>
+  <item name="fullname" value="Autonomous Computer Program Princes Missy Hendrikx" />
+  <item name="lastname" value="Hendrikx" />
 </root>
