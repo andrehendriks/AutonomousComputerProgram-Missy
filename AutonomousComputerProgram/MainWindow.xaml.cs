@@ -81,10 +81,10 @@ namespace AutonomousComputerProgram
 
 
             InitializeComponent();
-
+        }
             
 
-
+        public void Main(){
             Regex regex = new Regex(@"</?\w+((\s+\w+(\s*=\s*(?:"".*?""|'.*?'|[^'"">\s]+))?)+\s*|\s*)/?>", RegexOptions.Singleline);
             SpeechRecognitionEngine speechEngine = new SpeechRecognitionEngine(new System.Globalization.CultureInfo("en-US"));
             speechEngine.LoadGrammar(new Grammar(new GrammarBuilder("quit")));
